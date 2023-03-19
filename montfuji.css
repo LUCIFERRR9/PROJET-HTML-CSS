@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    color: #fff;
+}
+
+body {
+    background-image: url(mont.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.welcome_message {
+    text-align: center;
+    color: transparent;
+    transform: translate(5%, 40%);
+    -webkit-text-stroke: 2px #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 100;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_message:hover {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+
+#principal {
+    background-size: cover;
+    height: 200px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 2%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-top: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.video {
+    margin-left: 250px;
+}
+
+nav {
+    position: relative;
+    width: 590px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 0;
+}
+
+nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 50px;
+    transform: translate(5%, 40%);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.973);
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-top: 0;
+    margin-bottom: 55px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    animation: back 20s linear infinite;
+}
+
+.text1:hover:hover {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #e36c64;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1) {
+    width: 100px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+}
+
+nav a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+}
+
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4) {
+    width: 160px;
+}
+
+nav a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+}
+
+nav a:nth-child(5) {
+    width: 120px;
+}
+
+nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+* {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 0;
+}
+
+.welcome_message {
+    font-size: 60px;
+    transform: translate(5%, 40%);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.973);
+    cursor: pointer;
+    transition: all .4s ease;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.welcome_message:hover {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+
+.image1 {
+    float: right;
+    margin: 0 20px 5px 0;
+    shape-outside: margin-box;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.image2 {
+    float: right;
+    border-radius: 10px;
+    height: 1;
+    width: 900px;
+}

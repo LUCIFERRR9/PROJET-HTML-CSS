@@ -1,0 +1,219 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+    
+    .video {
+        float: left;
+        margin: 0 20px 5px 0;
+        shape-outside: margin-box;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        color: white;
+        font-size: 35PX
+    }
+    
+    body {
+        background-image: linear-gradient(rgba(49, 45, 45, 0.75), rgba(0, 0, 0, 0.75)), url(kyoto\ body.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    
+    *,
+     ::before,
+     ::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 600px;
+        background: #f1f1f1;
+        margin: 0 auto;
+        padding: 30px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .container::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .container h2 {
+        margin-bottom: 10px;
+    }
+    
+    div p {
+        line-height: 1.6;
+        color: white;
+    }
+    
+    img {
+        float: left;
+        width: 900px;
+        height: 300px;
+        object-fit: cover;
+        shape-outside: margin-box;
+        margin: 0 20px 5px 0;
+    }
+    
+    .video2 {
+        float: right;
+        margin: 0 20px 5px 0;
+        shape-outside: margin-box;
+        border-radius: 20PX;
+    }
+    
+    .tex {
+        margin-bottom: 10px;
+        border: 5px solid;
+        line-height: 2;
+        border-top: none;
+        border-left: none;
+        -webkit-text-stroke: 1px #3b3232;
+    }
+    
+    .welcome_message {
+        font-size: 7rem;
+        transform: translate(5%, 40%);
+        -webkit-text-stroke: 2px #fff;
+        cursor: pointer;
+        transition: all .4s ease;
+        margin-bottom: 10%;
+    }
+    
+    .welcome_message:hover {
+        color: #a1a7b4;
+    }
+    
+    .family {
+        font-size: 50px;
+        font-family: 'lato';
+        color: #fff;
+        border: 1px solid white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    nav {
+        position: relative;
+        width: 590px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: 0;
+    }
+    
+    nav a {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .text {
+        font-size: 50px;
+        transform: translate(5%, 40%);
+        -webkit-text-stroke: 2px rgba(255, 255, 255, 0.973);
+        cursor: pointer;
+        transition: all .4s ease;
+        margin-top: 0;
+        margin-bottom: 55px;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        -webkit-background-clip: text;
+        animation: back 20s linear infinite;
+    }
+    
+    .text:hover {
+        color: #fff;
+        -webkit-text-stroke: 0;
+    }
+    
+    nav .animation {
+        position: absolute;
+        height: 100%;
+        /* height: 5px; */
+        top: 0;
+        /* bottom: 0; */
+        z-index: 0;
+        background: #7c8dac;
+        border-radius: 8px;
+        transition: all .5s ease 0s;
+    }
+    
+    nav a:nth-child(1) {
+        width: 100px;
+    }
+    
+    nav .start-home,
+    a:nth-child(1):hover~.animation {
+        width: 100px;
+        left: 0;
+    }
+    
+    nav a:nth-child(2) {
+        width: 110px;
+    }
+    
+    nav a:nth-child(2):hover~.animation {
+        width: 110px;
+        left: 100px;
+    }
+    
+    nav a:nth-child(3) {
+        width: 100px;
+    }
+    
+    nav a:nth-child(3):hover~.animation {
+        width: 100px;
+        left: 210px;
+    }
+    
+    nav a:nth-child(4) {
+        width: 160px;
+    }
+    
+    nav a:nth-child(4):hover~.animation {
+        width: 160px;
+        left: 310px;
+    }
+    
+    nav a:nth-child(5) {
+        width: 120px;
+    }
+    
+    nav a:nth-child(5):hover~.animation {
+        width: 120px;
+        left: 470px;
+    }
+    
+    header {
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    
+    .logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
