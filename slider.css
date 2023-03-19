@@ -120,13 +120,4 @@
     .logo {
         flex-basis: 15%;
     }
-    
-    .menu-icon {
-        flex: 1;
-        align-items: center;
-        text-align: right;
-    }
-    
-    .menu-icon img {
-        width: 20px;
-    }
+   
